@@ -91,7 +91,7 @@
         z-index: -1;
         top: -3px;
         transition: width 0.4s ease;
-        border-radius: 3px 3px 0 0;
+        border-radius: 7px 7px 0 0;
       }
 
       &:after {
@@ -104,7 +104,7 @@
         z-index: -1;
         bottom: 0;
         transition: width 0.4s ease;
-        border-radius: 0 0 3px 3px;
+        border-radius: 0 0 7px 7px;
       }
 
       &:not(:first-child):hover::before,
